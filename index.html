@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>(morethan)nothing</title>
 </head>
+
 <body>
-$END$
+    <input id="box" placeholder=" " type="text">
+    <label for="box" id="zero"></label>
 </body>
+
+<style>
+    body {
+        margin: 0; /*remove any stray margin that might affect the layout*/
+        position: absolute; /*remove from normal doc flow; instead, position element relative to closest positioned ancestor or initial containing block (i.e the browser window)*/
+        top: 50%; /*move top edge to 50% of browser window height*/
+        left: 50%; /*same thing but horizontal*/
+        transform: translate(-50%, -50%); /*actually center by moving element backward, both horizontal and vertical of its own size*/
+        
+        text-align: center; /*self explanatory */
+    }
+
+
+    #zero::after { /*set default state of the paragraph after (which is really itself). Something something pseudoelement I don't fully understand*/
+        content: "nothing";
+    }
+    input:not(:placeholder-shown) + #zero::after { 
+        content: ">nothing"; /*when the placeholder isn't shown (i.e the user has typed something, change the text of the element after (which is really itself)*/
+    }
+</style>
+
 </html>
