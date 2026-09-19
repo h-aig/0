@@ -6,26 +6,71 @@
 </head>
 
 <body>
-    <button id="arp_omni"></button>
-    <input id="box" placeholder=" " type="text">
-    <label for="box" id="zero"></label>
+    
+    <details name="lyrics">
+        <summary></summary>
+        <pre>[00:40.17] With freckles as sparkling as yours
+[00:49.79] Who could dare to un-sparkle your dots
+[00:58.51] A face as unreasonably adorable as yours
+[01:08.87] Who could dare to thoughtlessly smudge your cheek
+[01:16.60] With black hair as infinite as yours
+[01:25.96] What could dare to bar your passage through the void
+[01:34.14] I have done almost nothing right
+[01:41.06] My entire adult life
+[01:49.28] But having dared to touch the fire with you
+[01:59.37] Breaks the chains of my being nothing too
+[02:04.10] 
+[02:24.24] Indiscretions as starling as yours
+[02:32.78] Who could dare to explain them as wrong or right
+[02:41.68] With invention as amusing as yours
+[02:51.98] Who could dare to remain uninvolved
+[03:00.64] With secrecy as bewildering as yours
+[03:11.03] What could insist on penetrating
+[03:19.28] I have done almost nothing right
+[03:24.96] My entire adult life
+[03:34.13] But having dared to touch the fire with you
+[03:43.37] Breaks the chains of my being nothing
+[03:47.82] </pre>
+    </details>
+
+    <div class="everything" id="typing">
+        <input id="box" placeholder=" " type="text">
+        <label for="box" id="zero"></label>
+    </div>
+
+    <audio class="everything" id="arp_omni" controls>
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
 </body>
 
 <style>
+
     body {
-        margin: 0; /*remove any stray margin that might affect the layout*/
-        position: absolute; /*remove from normal doc flow; instead, position element relative to closest positioned ancestor or initial containing block (i.e the browser window)*/
-        top: 50%; /*move top edge to 50% of browser window height*/
-        left: 50%; /*same thing but horizontal*/
-        transform: translate(-50%, -50%); /*actually center by moving element backward, both horizontal and vertical of its own size*/
-        
         text-align: center; /*self explanatory */
     }
 
-    #arp_omni::after {
-        content: "play";
-    }
+    .everything {
 
+        margin: 0; /*remove any stray margin that might affect the layout*/
+        transform: translate(-50%, -50%); /*actually center by moving element backward, both horizontal and vertical of its own size*/
+        
+        display: flex;
+        flex-direction: column;
+        position: absolute; /*remove from normal doc flow; instead, position element relative to closest positioned ancestor or initial containing block (i.e the browser window)*/
+    }
+    
+    #typing {
+        top: 50%; /*move top edge to 50% of browser window height*/
+        left: 50%; /*same thing but horizontal*/
+    }
+    
+    #arp_omni {
+        top: 90%;
+        left: 50%;
+    }
+    
     
     #zero::after { /*set default state of the paragraph after (which is really itself). Something something pseudoelement I don't fully understand*/
         content: "nothing";

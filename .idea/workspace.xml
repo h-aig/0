@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="731d0c91-05c3-411c-b6f0-a8931f9b0957" name="Changes" comment="Something">
+    <list default="true" id="731d0c91-05c3-411c-b6f0-a8931f9b0957" name="Changes" comment="?">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +32,9 @@
     "accountId": "6f9fa7f2-0c19-4488-aebe-76b517a0e73f"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7,
   "fromUser": false
@@ -70,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1788188201289</updated>
       <workItem from="1788188203387" duration="98000" />
-      <workItem from="1789845038278" duration="2271000" />
+      <workItem from="1789845038278" duration="7088000" />
     </task>
     <task id="LOCAL-00001" summary="Something">
       <option name="closed" value="true" />
@@ -80,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789847187708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lots of pseudo elements">
+      <option name="closed" value="true" />
+      <created>1789847405164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789847405164</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Something" />
-    <option name="LAST_COMMIT_MESSAGE" value="Something" />
+    <MESSAGE value="Lots of pseudo elements" />
+    <MESSAGE value="?" />
+    <option name="LAST_COMMIT_MESSAGE" value="?" />
   </component>
 </project>
