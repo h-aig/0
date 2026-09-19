@@ -6,6 +6,7 @@
 </head>
 
 <body>
+    <button id="arp_omni"></button>
     <input id="box" placeholder=" " type="text">
     <label for="box" id="zero"></label>
 </body>
@@ -21,7 +22,11 @@
         text-align: center; /*self explanatory */
     }
 
+    #arp_omni::after {
+        content: "play";
+    }
 
+    
     #zero::after { /*set default state of the paragraph after (which is really itself). Something something pseudoelement I don't fully understand*/
         content: "nothing";
     }
