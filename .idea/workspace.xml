@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="731d0c91-05c3-411c-b6f0-a8931f9b0957" name="Changes" comment="?">
+      <change afterPath="$PROJECT_DIR$/arp_omni.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -20,25 +21,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "h-aig"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;h-aig&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/h-aig/0.git",
-    "accountId": "6f9fa7f2-0c19-4488-aebe-76b517a0e73f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/h-aig/0.git&quot;,
+    &quot;accountId&quot;: &quot;6f9fa7f2-0c19-4488-aebe-76b517a0e73f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3JYjk9T7mVebqK6qFBCqkhD0gdm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,6 +56,8 @@
     "git-widget-placeholder": "master",
     "javascript.preferred.runtime.type.id": "node",
     "last_opened_file_path": "/home/h/things/making/jetbrains/WebstormProjects/TTTXX",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
   }
@@ -74,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1788188201289</updated>
       <workItem from="1788188203387" duration="98000" />
-      <workItem from="1789845038278" duration="7088000" />
+      <workItem from="1789845038278" duration="7108000" />
+      <workItem from="1789886388541" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="Something">
       <option name="closed" value="true" />
@@ -92,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789847405164</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="?">
+      <option name="closed" value="true" />
+      <created>1789852878783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1789852878783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

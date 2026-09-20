@@ -6,32 +6,34 @@
 </head>
 
 <body>
-    
-    <details name="lyrics">
-        <summary></summary>
-        <pre>[00:40.17] With freckles as sparkling as yours
-[00:49.79] Who could dare to un-sparkle your dots
-[00:58.51] A face as unreasonably adorable as yours
-[01:08.87] Who could dare to thoughtlessly smudge your cheek
-[01:16.60] With black hair as infinite as yours
-[01:25.96] What could dare to bar your passage through the void
-[01:34.14] I have done almost nothing right
-[01:41.06] My entire adult life
-[01:49.28] But having dared to touch the fire with you
-[01:59.37] Breaks the chains of my being nothing too
-[02:04.10] 
-[02:24.24] Indiscretions as starling as yours
-[02:32.78] Who could dare to explain them as wrong or right
-[02:41.68] With invention as amusing as yours
-[02:51.98] Who could dare to remain uninvolved
-[03:00.64] With secrecy as bewildering as yours
-[03:11.03] What could insist on penetrating
-[03:19.28] I have done almost nothing right
-[03:24.96] My entire adult life
-[03:34.13] But having dared to touch the fire with you
-[03:43.37] Breaks the chains of my being nothing
-[03:47.82] </pre>
-    </details>
+
+    <button class="everything" id="what" popovertarget="ARPOMNI">?</button>
+    <div id="ARPOMNI" popover="manual">
+        <p>With freckles as sparkling as yours</p> 
+        <p>Who could dare to un-sparkle your dots</p>
+        <p>A face as unreasonably adorable as yours</p>
+        <p>Who could dare to thoughtlessly smudge your cheek</p>
+        <p>With black hair as infinite as yours</p>
+        <p>What could dare to bar your passage through the void</p>
+        <br>
+        <p>I have done almost <i>nothing</i> right</p>
+        <p>My entire adult life</p>
+        <p>But having dared to touch the fire with you</p>
+        <p>Breaks the chains of my being <i>nothing</i> too</p>
+        <br>
+        <p>Indiscretions as starling as yours</p>
+        <p>Who could dare to explain them as wrong or right</p>
+        <p>With invention as amusing as yours</p>
+        <p>Who could dare to remain uninvolved</p>
+        <p>With secrecy as bewildering as yours</p>
+        <p>What could insist on penetrating</p>
+        <br>
+        <p>I have done almost <i>nothing</i> right</p>
+        <p>My entire adult life</p>
+        <p>But having dared to touch the fire with you</p>
+        <p>Breaks the chains of my being <i>nothing</i></p>
+        <button popovertarget="ARPOMNI" popovertargetaction="hide">Close</button>
+    </div>
 
     <div class="everything" id="typing">
         <input id="box" placeholder=" " type="text">
@@ -39,7 +41,7 @@
     </div>
 
     <audio class="everything" id="arp_omni" controls>
-        <source src="horse.mp3" type="audio/mpeg">
+        <source src="arp_omni.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
@@ -68,6 +70,15 @@
     
     #arp_omni {
         top: 90%;
+        left: 50%;
+    }
+    
+    #ARPOMNI {
+        line-height: 10%;
+    }
+    
+    #what {
+        top: 10%;
         left: 50%;
     }
     
